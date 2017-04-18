@@ -10,7 +10,7 @@ import css from './styles/style.styl';
 
 import Main from './components/Main'
 import Single from './components/Single'
-import PhotGrid from './components/PhotGrid'
+import PhotoGrid from './components/PhotoGrid'
 
 // import react router deps
 
@@ -25,4 +25,4 @@ const router = (
     </Router>
 )
 
-render(<Main><p>Yo</p></Main>, document.getElementById('root') );
+render(router, document.getElementById('root') );
